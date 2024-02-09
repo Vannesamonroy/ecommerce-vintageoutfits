@@ -1,0 +1,3 @@
+export const apiUrl = "https://strapi-production-1287.up.railway.app/api";
+export const strapiToken =
+  "b6c249a3db7c515b65f5871cf9f6fa4f68b8ac2699448cf8664178dcdb1c68d4ba59eb135a2c25ed31d219da7cfa4b425695a2bfec02698dd6ccbdff0fe56a4b67b377dec033f41c324e92acd8422c85e4c74bc9112fc15ecb952095eb1314c614e210c45a40fb5eb2c06bb2790c6725fbb875afa2f5d34d84fe124249a08a5c";
