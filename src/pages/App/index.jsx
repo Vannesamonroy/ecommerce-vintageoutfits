@@ -17,11 +17,11 @@ import "../../index.css";
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Home title={null}/>} />
-    <Route path="/clothes" element={<Home title="Clothes"/>} />
-    <Route path="/electronics" element={<Home title="Electronics" />} />
-    <Route path="/furnitures" element={<Home title="Furniture" />} />
-    <Route path="/toys" element={<Home title="Toys" />} />
-    <Route path="/others" element={<Home title="Others" />} />
+    <Route path="/clothes" element={<Home title="Ropa"/>} />
+    <Route path="/electronics" element={<Home title="Electronica" />} />
+    <Route path="/furnitures" element={<Home title="Muebles" />} />
+    <Route path="/toys" element={<Home title="Juguetes" />} />
+    <Route path="/others" element={<Home title="Otros" />} />
     <Route path="/my-account" element={<MyAccount />} />
     <Route path="/my-order" element={<MyOrder />} />
     <Route path="/my-orders/last" element={<MyOrder />} />

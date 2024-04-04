@@ -29,14 +29,14 @@ function SignIn() {
         className="flex flex-col w-full px-3 md:px-0 md:w-auto md:flex-row h-full justify-between mt-20 md:mt-0"
       >
         <div className="left w-full md:w-2/5 md:h-3/6 ">
-          <h1 className="text-4xl font-corben mb-9 text-gray-700">Log In</h1>
+          <h1 className="text-4xl font-corben mb-9 text-gray-700">Inicia Sesion</h1>
 
           <form
             onSubmit={handleLogin}
             className="flex flex-col h-52 justify-evenly font-display text-gray-600"
           >
             <label htmlFor="username" className="text-xl">
-              Write your username:
+              Escribe tu nombre completo
             </label>
             <input
               type="text"
@@ -48,9 +48,9 @@ function SignIn() {
             />
             <button
               type="submit"
-              className="pointer md:mb-0 font-display w-full h-12 text-lg bg-orange-300 rounded-2xl text-center border-b-4 border-black font-medium text-black transition-all duration-300 hover:translate-y-1"
+              className="pointer md:mb-0 font-display w-full h-12 text-lg bg-orange-300 hover:bg-orange-200 rounded-2xl text-center border-b-4 border-black font-medium text-black transition-all duration-300 hover:translate-y-1"
             >
-              Log In
+              Inicia Sesion
             </button>
           </form>
         </div>

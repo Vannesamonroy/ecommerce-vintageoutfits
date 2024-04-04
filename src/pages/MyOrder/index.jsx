@@ -20,7 +20,7 @@ function MyOrder() {
         transition={{ duration: 1 }}
       >
         <div className="flex items-center mt-20 md:mt-0 relative justify-center text-4xl font-display text-gray-700">
-          <h1>My Order</h1>
+          <h1>Detalle del Pedido</h1>
         </div>
 
         <div className="px-6 w-fit shadow grid md:gap-1 my-10 md:border rounded-lg p-6">

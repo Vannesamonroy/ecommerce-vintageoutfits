@@ -78,7 +78,7 @@ function MobileMenu() {
                 }}
                 className="underline underline-offset-2"
               >
-                All
+                Inicio
               </NavLink>
             </li>
             <li>
@@ -89,7 +89,7 @@ function MobileMenu() {
                   closeMenu();
                 }}
               >
-                Clothes
+                Ropa
               </NavLink>
             </li>
             <li>
@@ -100,7 +100,7 @@ function MobileMenu() {
                   closeMenu();
                 }}
               >
-                Electronics
+                Tecnologia
               </NavLink>
             </li>
             <li>
@@ -111,7 +111,7 @@ function MobileMenu() {
                   closeMenu();
                 }}
               >
-                Furnitures
+                Muebles
               </NavLink>
             </li>
             <li>
@@ -122,7 +122,7 @@ function MobileMenu() {
                   closeMenu();
                 }}
               >
-                Toys
+                Juguetes
               </NavLink>
             </li>
             <li>
@@ -133,7 +133,7 @@ function MobileMenu() {
                   closeMenu();
                 }}
               >
-                Others
+                Otros
               </NavLink>
             </li>
             <li></li>
@@ -146,12 +146,12 @@ function MobileMenu() {
                     onClick={closeMenu}
                     className="font-bold"
                   >
-                    My account
+                    Cuenta
                   </NavLink>
                 </li>
                 <li>
                   <NavLink to="/my-orders" onClick={closeMenu}>
-                    My orders
+                    Mis Pedidos
                   </NavLink>
                 </li>
               </div>
@@ -163,7 +163,7 @@ function MobileMenu() {
                     onClick={closeMenu}
                     className="font-semibold"
                   >
-                    Sign In
+                    Iniciar Sesion
                   </NavLink>
                 </li>
               </div>

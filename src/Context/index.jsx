@@ -60,6 +60,7 @@ export const ShoppingCartProvider = ({ children }) => {
   };
 
   const filteredItemsByCategory = (items, searchByCategory) => {
+    console.log(items, searchByCategory)
     return items?.filter((item) =>
       item.attributes?.category
         .toLowerCase()

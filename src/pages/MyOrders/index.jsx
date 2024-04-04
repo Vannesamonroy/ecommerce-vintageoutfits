@@ -19,7 +19,7 @@ function MyOrders() {
       >
         <div className="flex items-center w-80 relative justify-center mt-20 md:mt-0">
           <h1 className="text-4xl font-display mb-12 text-gray-700">
-            My Orders
+            Mis Pedidos
           </h1>
         </div>
 
@@ -35,7 +35,7 @@ function MyOrders() {
         ) : (
           <Link to="/">
             <p className="flex items-center font-light px-4 w-full h-14 my-4 bg-orange-300 rounded-2xl text-center border-b-2 border-black text-black transition-all ease-in hover:translate-y-1">
-              Let's make our first order
+              Hacer Pedido
               <ArrowLongRightIcon className="w-6 h-6 pl-2" />
             </p>
           </Link>

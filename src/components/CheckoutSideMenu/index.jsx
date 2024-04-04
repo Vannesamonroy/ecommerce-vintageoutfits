@@ -39,7 +39,7 @@ const CheckoutSideMenu = () => {
       } checkout-side-menu flex-col fixed top-14 md:top-24 h-screen md:h-fit right-0 md:border  border-gray-400 rounded-b-lg  bg-white z-10 p-2 md:mr-4 w-full md:w-96`}
     >
       <div className="flex justify-between items-center p-6">
-        <h2 className="font-medium font-display text-xl">My Order</h2>
+        <h2 className="font-medium font-display text-xl">Carrito De Compras</h2>
         <div onClick={() => context.closeCheckoutSideMenu()}>
           <XCircleIcon className="w-7 h-7 cursor-pointer hover:text-purple-300" />
         </div>
@@ -73,9 +73,9 @@ const CheckoutSideMenu = () => {
               handleCheckOut();
               closeCheckoutSideMenu();
             }}
-            className="w-full h-12 my-4 bg-purple-300 rounded-2xl text-center border-b-2 border-black font-medium text-black transition-all ease-in hover:translate-y-1 focus:translate-y-0 "
+            className="w-full h-12 my-4 bg-orange-300 rounded-2xl text-center border-b-2 border-black font-medium text-black transition-all ease-in hover:translate-y-1 focus:translate-y-0 "
           >
-            Checkout
+            Finalizar Pedido
           </button>
         </Link>
       </div>

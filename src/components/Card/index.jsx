@@ -32,7 +32,7 @@ const Card = (data) => {
 
     if (isInCart) {
       return (
-        <div className="w-10 h-10 absolute top-2 right-6 flex justify-center items-center text-white bg-purple-300 rounded-full border border-white text-lg">
+        <div className="w-10 h-10 absolute top-2 right-6 flex justify-center items-center text-white bg-gray-300 rounded-full border border-white text-lg">
           <CheckIcon className="w-5 h-5" />
         </div>
       );

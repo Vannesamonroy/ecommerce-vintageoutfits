@@ -45,11 +45,11 @@ function Navbar() {
             }`}
           >
             <MagnifyingGlassIcon className="w-6 h-6 mr-2" />
-            Search
+            Buscar 
           </span>
           <input
             type="text"
-            className="rounded-3xl text-gray-600 w-full p-3 bg-slate-100 border-b-2 border-black/transparent pl-12 focus:outline-none focus:ring-2 focus:ring-purple-300"
+            className="rounded-3xl text-gray-600 w-full p-3 bg-slate-100 border-b-2 border-black/transparent pl-12 focus:outline-none focus:ring-2 focus:ring-yellow-500"
             onInput={handleInputChange}
             onChange={(event) => context.setSearchByTitle(event.target.value)}
             value={inputValue}
@@ -59,12 +59,12 @@ function Navbar() {
         <div className="user flex items-center pr-4">
           {auth.user?.username && (
             <div className="user flex items-center">
-              <p className="pr-5 text-purple-300 text-semibold">
-                Welcome!
+              <p className="pr-5 text-black-300 text-semibold">
+                Bienvenida!
                 <span className=" text-gray-600"> {auth.user.username}</span>
               </p>
               <img
-                className="w-11 h-11 rounded-3xl border-4 border-purple-300"
+                className="w-11 h-11 rounded-3xl border-4 border-gray-300"
                 src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z2F0byUyMGNvbiUyMGxlbnRlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
                 alt="User photo"
               />

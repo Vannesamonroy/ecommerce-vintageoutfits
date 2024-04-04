@@ -7,9 +7,9 @@ import { motion } from "framer-motion";
 import "./styles.css";
 
 function NavbarSide() {
-  const activeStyle =
-    "bg-purple-300 rounded-2xl text-center border-b-4 border-black  text-black";
-
+  // const activeStyle =
+  //   "bg-purple-300 rounded-2xl text-center border-b-4 border-black  text-black";
+  const activeStyle = "text-center font-bold hover:bg-opacity-50"
   const context = useContext(ShoppingCartContext);
   const auth = useAuth();
 
@@ -44,7 +44,7 @@ function NavbarSide() {
               activeStyle={activeStyle}
               onClick={() => context.setSearchByCategory("")}
             >
-              All
+              Inicio
             </NavItem>
           </li>
           <li>
@@ -53,7 +53,7 @@ function NavbarSide() {
               activeStyle={activeStyle}
               onClick={() => context.setSearchByCategory("clothes")}
             >
-              Clothes
+              Ropa
             </NavItem>
           </li>
           <li>
@@ -62,7 +62,7 @@ function NavbarSide() {
               activeStyle={activeStyle}
               onClick={() => context.setSearchByCategory("electronics")}
             >
-              Electronics
+              Tecnologia
             </NavItem>
           </li>
           <li>
@@ -71,7 +71,7 @@ function NavbarSide() {
               activeStyle={activeStyle}
               onClick={() => context.setSearchByCategory("furniture")}
             >
-              Furnitures
+              Muebles
             </NavItem>
           </li>
           <li>
@@ -80,7 +80,7 @@ function NavbarSide() {
               activeStyle={activeStyle}
               onClick={() => context.setSearchByCategory("toys")}
             >
-              Toys
+              Juguetes
             </NavItem>
           </li>
           <li>
@@ -89,7 +89,7 @@ function NavbarSide() {
               activeStyle={activeStyle}
               onClick={() => context.setSearchByCategory("others")}
             >
-              Others
+              Otros
             </NavItem>
           </li>
         </ul>
@@ -103,7 +103,7 @@ function NavbarSide() {
                   activeStyle={activeStyle}
                   onClick={null}
                 >
-                  My account
+                  Cuenta
                 </NavItem>
               </li>
               <li>
@@ -112,7 +112,7 @@ function NavbarSide() {
                   activeStyle={activeStyle}
                   onClick={null}
                 >
-                  My orders
+                  Pedidos
                 </NavItem>
               </li>
             </div>
@@ -120,12 +120,12 @@ function NavbarSide() {
             <div className="public">
               <li>
                 <NavItem to="/sign-in" activeStyle={activeStyle} onClick={null}>
-                  Sign In
+                  Iniciar Sesion
                 </NavItem>
               </li>
             </div>
           )}
-          <li className="flex text-purple-300">
+          <li className="flex text-orange-300">
             <ShoppingBagIcon className="w-6 h-6 " />
             {context.cartProducts.length}
           </li>

@@ -40,18 +40,18 @@ function Home({ title}) {
         animate={{opacity: 1, }}
         transition={{ duration: 1, delay: 2 }} >
           <div className="top flex flex-col justify-evenly h-2/4 w-11/12 mb-20 md:flex-row">
-            <div className="img-container relative md:w-2/5">
+            <div className="img-container relative md:w-5/5">
               <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
                 <p className="text-3xl md:text-6xl md:tracking-wide md:w-72 md:leading-snug font-corben text-white mb-2">
-                  Get up to 50% off
+                  Disfruta  50% descuentos
                 </p>
                 {auth.isLoggedIn ? (
                   <button className="md:w-7/12 w-11/12  h-12 my-4 text-base md:text-lg font-display bg-orange-300 rounded-2xl text-center border-b-4 border-white  text-black hover:translate-y-1 active:translate-y-1 transition-transform">
-                    Shop Now
+                    Comprar Ahora
                   </button>
                 ) : (
                   <button className="md:w-7/12 w-11/12 h-12 my-4 text-base md:text-lg ont-display bg-orange-300 rounded-2xl text-center border-b-4 border-white  text-white hover:translate-y-1 active:translate-y-1 transition-transform">
-                    <Link to="/sign-in"> Sign in</Link>
+                    <Link to="/sign-in"> Inicia Sesion</Link>
                   </button>
                 )}
               </div>
@@ -62,11 +62,11 @@ function Home({ title}) {
               />
             </div>
 
-            <img
+            {/* <img
               className="md:w-2/4 object-cover h-full rounded-lg mt-9 md:m-0 border-b-4 border-orange-300"
               src="https://images.unsplash.com/photo-1527275393322-8ddae8bd5de9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
               alt="promp img"
-            />
+            /> */}
           </div>
         </motion.div>
       )}
